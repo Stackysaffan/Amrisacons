@@ -1,0 +1,266 @@
+/* General Styles */
+*::selection {
+    background-color: rgb(209, 202, 202);
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #e71515;
+    color: #fff;
+    padding: 1.5em 0;
+    text-align: center;
+    width: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 1);
+    overflow: hidden;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: 10px auto;
+}
+
+.amrisa-image {
+    height: 125px;
+    margin-right: 20px;
+}
+
+.text-content {
+    display: inline-block;
+    text-align: left;
+}
+
+.text-content img {
+    height: 50px;
+}
+
+header h1 {
+    margin: 0;
+    font-weight: 500;
+    font-family: "Neuropolitical", sans-serif;
+    font-size: 40px;
+    text-decoration: dashed;
+    margin: 10px 0;
+}
+
+header h3 {
+    color: whitesmoke;
+    font-family: 'Josefin Slab', serif;
+    font-weight: 900px;
+    margin: 10px 0;
+}
+
+header h1::selection, header h3::selection {
+    background-color: #ff5151;
+}
+
+.uk-image {
+    height: 60px;
+    margin-left: 500px;
+    border-radius: 10px;
+}
+
+#i {
+    background-color: wheat;
+    padding-right: 25px;
+}
+
+#i video {
+    width: 101.87%;
+    height: 100%;
+}
+
+#logos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 225px;
+    text-align: center;
+}
+
+#head {
+    margin: 10px 0;
+}
+
+.logos-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+.logo {
+    margin: 0 40px; /* Adjust this value to control spacing */
+    transition: transform 0.3s ease; /* Smooth transition for scaling */
+}
+
+.logo:hover {
+    transform: scale(1.1); /* Scales the logo to 110% of its original size */
+}
+
+#one, #two, #three {
+    margin-bottom: 20px; /* Ensure consistent bottom spacing */
+}
+
+#two {
+    height: 300px;
+}
+
+#h {
+    margin: 0 573px; 
+}
+
+#t {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#u, #j, #o {
+    background-color: #1c0e99;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px 13px;
+    max-width: 400px;
+    margin: 50px 10px;
+    transition: transform 0.3s ease;
+}
+
+#u:hover, #j:hover, #o:hover {
+    transform: scale(1.05);
+}
+
+#u p::selection, #j p::selection, #o p::selection{
+    background-color: #ff5151;
+}
+
+#o::selection{
+    background-color: #402fd3;
+}
+
+#u img, #j img, #o img {
+    border-radius: 150px;
+    margin-bottom: 20px;
+} 
+
+#j {
+    background-color: #e71515;
+}
+
+#contact {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    border-radius: 4px;
+    background-color: #4336be;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e71515;
+    transition-property: background-color;
+    transition-duration: 0.3s;
+}
+
+footer {
+    background-color: #4336be;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 10px;
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-icon {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-icon img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s;
+}
+
+.social-icon img:hover {
+    transform: scale(1.1);
+}
+
+#line {
+    background-color: white;
+    padding: 2px 1px;
+    margin: 30px 500px;
+    border-radius: 2px;
+}
+
+@keyframes aam {
+    form {
+        padding: 0;
+    }
+    to {
+        padding: 0 300px;
+    }
+}
+
+@font-face {
+    font-family: "Neuropolitical";
+    src: url(neuropolitical\ rg.otf);
+}
+
+@font-face {
+    font-family: "Egyptian Slate";
+    src: url(Egyptian-Slate-W01-Black.ttf);
+}
