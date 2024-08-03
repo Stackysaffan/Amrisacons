@@ -514,6 +514,10 @@ footer {
     header {
         padding-right: 50px;
     }
+
+    #i video {
+        width: 120%;
+    }
     
     header h1 {
         font-size: 28px;
@@ -536,7 +540,47 @@ footer {
 
     .testimonial {
         padding: 6px;
-        max-width: 150px;
+        max-width: 120px;
+        margin: 20px 2px;
+    }
+
+    #u img, #j img, #o img  {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media (min-width:450px) and (max-width: 500px) {
+    header {
+        padding-right: 50px;
+    }
+
+    #i video {
+        width: 120%;
+    }
+    
+    header h1 {
+        font-size: 28px;
+    }
+    .amrisa-image{
+        height: 90px;
+    }
+
+    #one {
+        width: 70px;
+    }
+
+    #two {
+        width: 110px;
+    }
+    
+    #three {
+        width: 90px;
+    }
+
+    .testimonial {
+        padding: 6px;
+        max-width: 120px;
         margin: 20px 2px;
     }
 
