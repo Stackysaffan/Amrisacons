@@ -67,12 +67,12 @@ header h1::selection, header h3::selection {
 
 #i {
     background-color: wheat;
-    padding-right: 25px;
+    padding-right: 50px;
 }
 
 #i video {
-    width: 101.87%;
-    height: 100%;
+    width: 102%;
+    height: 115%;
 }
 
 #logos {
@@ -80,7 +80,7 @@ header h1::selection, header h3::selection {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 100px 225px;
+    margin:100px 0;
     text-align: center;
 }
 
@@ -132,7 +132,7 @@ div#h {
 }
 
 .testimonial {
-    background-color: #1c0e99;
+    background-color: #0c0075;
     color: white;
     display: flex;
     flex-direction: column;
@@ -149,10 +149,6 @@ div#h {
     transform: scale(1.05);
 }
 
-#u::selection, #j::selection, #o::selection {
-    background-color: #402fd3;
-}
-
 #u img, #j img, #o img {
     border-radius: 50%;
     margin-bottom: 10px;
@@ -161,7 +157,7 @@ div#h {
 }
 
 #j {
-    background-color: #e71515;
+    background-color: #c90707;
 }
 
 #contact {
@@ -215,7 +211,7 @@ button:hover {
 }
 
 footer {
-    background-color: #4336be;
+    background-color: #16079e;
     color: #fff;
     text-align: center;
     padding: 1em 0;
@@ -377,13 +373,13 @@ footer {
     }  
 
     #one {
-        width: 60px;
+        width: 70px;
     }
     #two {
-        width: 100px;
+        width: 110px;
     }
     #three {
-        width: 80px;
+        width: 90px;
     }
 
     .testimonial {
@@ -407,8 +403,37 @@ footer {
     .amrisa-image{
         height: 100px;
     }
+    
     header h1 {
         font-size: 32px;
+    }
+        .testimonial {
+        padding: 10px;
+        max-width: 210px;
+        margin: 20px 5px;
+    }
+ 
+    #u img, #j img, #o img  {
+        width: 100px;
+        height: 100px;
+    }
+
+    #one {
+        width: 70px;
+    }
+
+    #two {
+        width: 110px;
+    }
+
+    #three {
+        width: 90px;
+    }
+
+    .testimonial {
+        padding: 7.5px;
+        max-width: 200px;
+        margin: 20px 5px;
     }
 } 
 
@@ -424,6 +449,29 @@ footer {
     header h1 {
         font-size: 32px;
     }
+
+    #one {
+        width: 70px;
+    }
+
+    #two {
+        width: 110px;
+    }
+    
+    #three {
+        width: 90px;
+    }
+
+    .testimonial {
+        padding: 6px;
+        max-width: 190px;
+        margin: 20px 5px;
+    }
+
+    #u img, #j img, #o img  {
+        width: 120px;
+        height: 120px;
+    }
 } 
 
 @media (min-width:500px) and (max-width: 675px) {
@@ -433,32 +481,63 @@ footer {
     .amrisa-image{
         height: 90px;
     }
-}
 
-/* Responsive Styles for logos */
-@media (max-width: 768px) {
-    #logos {
-        margin: 50px auto;
-    }
     #one {
-        width: 60px;
-    }
-    #two {
-        width: 100px;
-    }
-    #three {
-        width: 80px;
-    }
-}
-
-@media (max-width: 480px) {
-    #one {
-        width: 50px;
-    }
-    #two {
-        width: 80px;
-    }
-    #three {
         width: 70px;
+    }
+
+    #two {
+        width: 110px;
+    }
+    
+    #three {
+        width: 90px;
+    }
+
+    .testimonial {
+        padding: 6px;
+        max-width: 150px;
+        margin: 20px 2px;
+    }
+
+    #u img, #j img, #o img  {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media (min-width:450px) and (max-width: 500px) {
+    header {
+        padding-right: 50px;
+    }
+    
+    header h1 {
+        font-size: 28px;
+    }
+    .amrisa-image{
+        height: 90px;
+    }
+
+    #one {
+        width: 70px;
+    }
+
+    #two {
+        width: 110px;
+    }
+    
+    #three {
+        width: 90px;
+    }
+
+    .testimonial {
+        padding: 6px;
+        max-width: 150px;
+        margin: 20px 2px;
+    }
+
+    #u img, #j img, #o img  {
+        width: 100px;
+        height: 100px;
     }
 }
