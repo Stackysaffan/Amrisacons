@@ -149,6 +149,10 @@ div#h {
     transform: scale(1.05);
 }
 
+.testimonial::selection {
+    background-color: rgb(47, 7, 192);
+}
+
 #u img, #j img, #o img {
     border-radius: 50%;
     margin-bottom: 10px;
