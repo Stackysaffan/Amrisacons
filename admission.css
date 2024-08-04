@@ -589,3 +589,45 @@ footer {
         height: 100px;
     }
 }
+
+@media (min-width:400px) and (max-width: 450px) {
+    header {
+        padding-right: 50px;
+    } 
+
+    #i video {
+        width: 125%;
+        height: 120%;
+    }
+    
+    header h1 {
+        font-size: 25px;
+    }
+
+    .amrisa-image{
+        height: 70px;
+    }
+
+    #one {
+        width: 70px;
+    }
+
+    #two {
+        width: 110px;
+    }
+    
+    #three {
+        width: 90px;
+    }
+
+    .testimonial {
+        padding: 6px;
+        max-width: 120px;
+        margin: 20px 2px;
+    }
+
+    #u img, #j img, #o img  {
+        width: 100px;
+        height: 100px;
+    }
+}
